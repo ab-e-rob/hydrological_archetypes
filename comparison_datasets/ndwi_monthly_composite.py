@@ -4,7 +4,7 @@ from utils import get_aoi
 # Initialize Earth Engine
 ee.Initialize()
 
-# uncomment if wanting to process all
+# uncomment if wanting to process all sites
 #aoi_list = get_aoi.get_all_aois()
 
 # add name in for only one site

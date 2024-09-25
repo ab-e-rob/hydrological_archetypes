@@ -1,6 +1,4 @@
 import pandas as pd
-import os
-import calendar
 import matplotlib.pyplot as plt
 
 wetland_name = 'Aloppkolen'

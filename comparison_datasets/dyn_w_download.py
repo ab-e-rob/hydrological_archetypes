@@ -5,6 +5,7 @@ from utils import get_aoi
 ee.Authenticate() # You only need to do this once, comment out after
 ee.Initialize()
 
+# for all wetlands
 aoi_list = get_aoi.get_all_aois()
 
 # Define the years for which you want to obtain composites.

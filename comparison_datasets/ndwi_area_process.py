@@ -7,12 +7,11 @@ import csv
 # Set the wetland(s) you want to get the stats for
 wetland_names = ['Aloppkolen']
 
-
 for wetland_name in wetland_names:
     # Folder containing the input raster files
     input_folder = r"../data/ndwi/" + wetland_name
 
-    # Specify the CRS for reprojecting to UTM (replace 'EPSG:32633' with the appropriate UTM zone)
+    # Specify the CRS for reprojecting to UTM (replace 'EPSG:32633' with an appropriate UTM zone)
     utm_crs = "EPSG:32633"
 
     # Create an empty list to store the results
